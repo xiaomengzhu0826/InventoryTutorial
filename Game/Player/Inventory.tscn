@@ -1,0 +1,99 @@
+[gd_scene format=3 uid="uid://cjacdnx4nlor7"]
+
+[ext_resource type="Script" uid="uid://bn5g6hs0jor2i" path="res://Game/Player/Inventory.cs" id="1_k4i8y"]
+[ext_resource type="Resource" uid="uid://bkor1xtgxkda0" path="res://Game/Resource/ItemData/Goo.tres" id="2_awnmb"]
+[ext_resource type="PackedScene" uid="uid://cad58mayajift" path="res://Game/Player/InventorySlot.tscn" id="2_f8tkw"]
+[ext_resource type="Resource" uid="uid://mk0ekpsc0cim" path="res://Game/Resource/ItemData/Iron.tres" id="3_s64gn"]
+[ext_resource type="Resource" uid="uid://usbwrbc326ix" path="res://Game/Resource/ItemData/Wood.tres" id="4_0tmpg"]
+
+[node name="Inventory" type="Node" unique_id=870570235]
+script = ExtResource("1_k4i8y")
+_starterItems = [ExtResource("2_awnmb"), ExtResource("3_s64gn"), ExtResource("4_0tmpg"), ExtResource("4_0tmpg"), ExtResource("4_0tmpg"), ExtResource("3_s64gn")]
+
+[node name="InventoryWindow" type="Panel" parent="." unique_id=1115560940]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -280.0
+offset_top = -184.0
+offset_right = 280.0
+offset_bottom = 184.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SlotContainer" type="GridContainer" parent="InventoryWindow" unique_id=1057503759]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -260.0
+offset_top = -166.0
+offset_right = 260.0
+offset_bottom = 146.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/h_separation = 10
+theme_override_constants/v_separation = 10
+columns = 5
+
+[node name="InventorySlot" parent="InventoryWindow/SlotContainer" unique_id=599671775 instance=ExtResource("2_f8tkw")]
+layout_mode = 2
+
+[node name="InventorySlot2" parent="InventoryWindow/SlotContainer" unique_id=579152771 instance=ExtResource("2_f8tkw")]
+layout_mode = 2
+
+[node name="InventorySlot3" parent="InventoryWindow/SlotContainer" unique_id=699224901 instance=ExtResource("2_f8tkw")]
+layout_mode = 2
+
+[node name="InventorySlot4" parent="InventoryWindow/SlotContainer" unique_id=2133220311 instance=ExtResource("2_f8tkw")]
+layout_mode = 2
+
+[node name="InventorySlot5" parent="InventoryWindow/SlotContainer" unique_id=218216686 instance=ExtResource("2_f8tkw")]
+layout_mode = 2
+
+[node name="InventorySlot6" parent="InventoryWindow/SlotContainer" unique_id=1331381551 instance=ExtResource("2_f8tkw")]
+layout_mode = 2
+
+[node name="InventorySlot7" parent="InventoryWindow/SlotContainer" unique_id=1713979852 instance=ExtResource("2_f8tkw")]
+layout_mode = 2
+
+[node name="InventorySlot8" parent="InventoryWindow/SlotContainer" unique_id=1189891998 instance=ExtResource("2_f8tkw")]
+layout_mode = 2
+
+[node name="InventorySlot9" parent="InventoryWindow/SlotContainer" unique_id=1808936333 instance=ExtResource("2_f8tkw")]
+layout_mode = 2
+
+[node name="InventorySlot10" parent="InventoryWindow/SlotContainer" unique_id=1700158825 instance=ExtResource("2_f8tkw")]
+layout_mode = 2
+
+[node name="InventorySlot11" parent="InventoryWindow/SlotContainer" unique_id=1124870645 instance=ExtResource("2_f8tkw")]
+layout_mode = 2
+
+[node name="InventorySlot12" parent="InventoryWindow/SlotContainer" unique_id=1739035563 instance=ExtResource("2_f8tkw")]
+layout_mode = 2
+
+[node name="InventorySlot13" parent="InventoryWindow/SlotContainer" unique_id=1941547942 instance=ExtResource("2_f8tkw")]
+layout_mode = 2
+
+[node name="InventorySlot14" parent="InventoryWindow/SlotContainer" unique_id=371545460 instance=ExtResource("2_f8tkw")]
+layout_mode = 2
+
+[node name="InventorySlot15" parent="InventoryWindow/SlotContainer" unique_id=1613923020 instance=ExtResource("2_f8tkw")]
+layout_mode = 2
+
+[node name="InfoText" type="Label" parent="InventoryWindow" unique_id=673974673]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -33.0
+offset_bottom = -10.0
+grow_horizontal = 2
+grow_vertical = 0
+horizontal_alignment = 1
+vertical_alignment = 1

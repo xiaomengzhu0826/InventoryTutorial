@@ -1,0 +1,12 @@
+[gd_resource type="Resource" format=3 uid="uid://mk0ekpsc0cim"]
+
+[ext_resource type="Texture2D" uid="uid://d2twxtxeqy64" path="res://Asset/Items/Icons/Iron.png" id="1_i608r"]
+[ext_resource type="PackedScene" uid="uid://cr750k8tj3jpk" path="res://Game/WorldItem/WorldItemIron.tscn" id="2_m11i4"]
+[ext_resource type="Script" uid="uid://dssfijngret72" path="res://Game/Resource/Item.cs" id="2_tadcy"]
+
+[resource]
+script = ExtResource("2_tadcy")
+DisplayName = "Iron"
+Icon = ExtResource("1_i608r")
+MaxStackSize = 12
+WorldItemScene = ExtResource("2_m11i4")

@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://cr750k8tj3jpk"]
+
+[ext_resource type="Script" uid="uid://cwiw5pgl26w7i" path="res://Game/WorldItem/WorldItem.cs" id="1_n4hy2"]
+[ext_resource type="ArrayMesh" uid="uid://8evg4gju7nl8" path="res://Asset/Items/Models/Iron.obj" id="2_pmsdj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_n4hy2"]
+albedo_color = Color(0.38160047, 0.37926793, 0.3827398, 1)
+metallic = 0.35
+roughness = 0.5
+rim_enabled = true
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_pmsdj"]
+points = PackedVector3Array(0.484386, -0.2185787, 0.76476115, 0.23005489, 0.21485904, 0.8, 0.44332507, -0.21490799, 0.8, 0.46485123, -0.25, 0.76476115, 0.484386, -0.2185787, -0.7649178, 0.26741746, 0.21848083, 0.76476115, -0.23014975, 0.21485904, 0.8, 0.21668401, 0.25, 0.76476115, -0.4434199, -0.21490799, 0.8, -0.46494606, -0.25, 0.76476115, 0.46485123, -0.25, -0.7649178, 0.44332507, -0.21490799, -0.8, 0.23005489, 0.21485904, -0.8, 0.26741746, 0.21848083, -0.7649178, -0.21687368, 0.25, 0.76476115, -0.26760715, 0.21848083, 0.76476115, 0.21668401, 0.25, -0.7649178, -0.484386, -0.2185787, 0.76476115, -0.46494606, -0.25, -0.7649178, -0.4434199, -0.21490799, -0.8, -0.23014975, 0.21485904, -0.8, -0.21687368, 0.25, -0.7649178, -0.26760715, 0.21848083, -0.7649178, -0.484386, -0.2185787, -0.7649178)
+
+[node name="WorldItemIron" type="RigidBody3D" unique_id=1480250530]
+script = ExtResource("1_n4hy2")
+_itemName = "Iron"
+InteractPrompt = "Pickup Iron"
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=582373286]
+transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, 0)
+mesh = ExtResource("2_pmsdj")
+surface_material_override/0 = SubResource("StandardMaterial3D_n4hy2")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1479243177]
+transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, 0, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_pmsdj")

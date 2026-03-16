@@ -1,0 +1,12 @@
+[gd_resource type="Resource" format=3 uid="uid://bkor1xtgxkda0"]
+
+[ext_resource type="Texture2D" uid="uid://dkvupub4psbja" path="res://Asset/Items/Icons/Goo.png" id="1_dl4yq"]
+[ext_resource type="PackedScene" uid="uid://ctff3t2iaopky" path="res://Game/WorldItem/WorldItemGoo.tscn" id="2_35y6c"]
+[ext_resource type="Script" uid="uid://dssfijngret72" path="res://Game/Resource/Item.cs" id="2_mwcg7"]
+
+[resource]
+script = ExtResource("2_mwcg7")
+DisplayName = "Goo"
+Icon = ExtResource("1_dl4yq")
+MaxStackSize = 12
+WorldItemScene = ExtResource("2_35y6c")

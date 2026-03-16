@@ -1,0 +1,44 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1773211395
+icon.svg::CompressedTexture2D::3425285990938402136::1771723148::1771723152::1::::<><><>0<>0<>070b30674ab554e1c47164c4b4a133a5<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://Asset/::1771723405
+::res://Asset/Items/::1771723337
+::res://Asset/Items/Icons/::1771728601
+Goo.png::CompressedTexture2D::7905744600408973590::1771723337::1771723338::1::::<><><>0<>0<>6cd7a5c9863e760c18311b1680d64258<>res://.godot/imported/Goo.png-c94386158e1b79da40560a0eab5e040a.s3tc.ctex::
+Iron.png::CompressedTexture2D::267498879041536635::1771723337::1771723338::1::::<><><>0<>0<>3d5c1aa63ea2e1ed751a6745083aa30e<>res://.godot/imported/Iron.png-53e112ec18b068182e9ef6db111ead83.s3tc.ctex::
+Wood.png::CompressedTexture2D::4932972205435721435::1771723337::1771728601::1::::<><><>0<>0<>3a21683cc2738ac9486d78f099191b4b<>res://.godot/imported/Wood.png-384baf2af871b83496c58e02d9d96301.s3tc.ctex::
+::res://Asset/Items/Models/::1771723338
+Goo.obj::Mesh::3041257797295006926::1771723337::1771723338::1::::<><><>0<>0<>9553a6128d80befb989191871e1efec5<>res://.godot/imported/Goo.obj-c83779084573fb9c14cd4ec066ce7606.mesh<*>res://.godot/imported/Goo.obj-c83779084573fb9c14cd4ec066ce7606.mesh::
+Iron.obj::Mesh::2325776655565732267::1771723337::1771723338::1::::<><><>0<>0<>cbd9a44733718b4ac0f1b13207a9f331<>res://.godot/imported/Iron.obj-5fceaff91a6fb43dc0b61ec3c50f7e15.mesh<*>res://.godot/imported/Iron.obj-5fceaff91a6fb43dc0b61ec3c50f7e15.mesh::
+Wood.obj::Mesh::6705007881316482568::1771723337::1771723338::1::::<><><>0<>0<>969cf9d69c47c1f5854d9629dc93dc53<>res://.godot/imported/Wood.obj-a217299d4d90a19b4f58791a528e1b2f.mesh<*>res://.godot/imported/Wood.obj-a217299d4d90a19b4f58791a528e1b2f.mesh::
+::res://Asset/Room Model/::1771724190
+Room.glb::PackedScene::6132828962448966043::1771724187::1771724190::1::::<><><>0<>0<>24d257c753af2cb8275b91deaad9aa3f<>res://.godot/imported/Room.glb-1fde0a91c3e637e88bc10faba9719dbb.scn::uid://bw5j20smox6wu::::res://Asset/Room Model/Room_Wood076_1K-JPG_Color.jpg<>uid://nw1d3scm2x81::::res://Asset/Room Model/Room_Planks037B_1K-JPG_Color.jpg<>uid://b4i0ysodblvej::::res://Asset/Room Model/Room_PaintedPlaster017_1K-JPG_Color.jpg
+Room_PaintedPlaster017_1K-JPG_Color.jpg::CompressedTexture2D::4439973922287061293::1771724025::1771724190::1::::<><><>0<>0<>86653fea405e78baeb17f00d6d981042<>res://.godot/imported/Room_PaintedPlaster017_1K-JPG_Color.jpg-d6da36bb71a69240bc21e1b18ea36a0e.s3tc.ctex::
+Room_Planks037B_1K-JPG_Color.jpg::CompressedTexture2D::959456775645658160::1771724025::1771724190::1::::<><><>0<>0<>d272c2d99974041a878b2bcc990685dd<>res://.godot/imported/Room_Planks037B_1K-JPG_Color.jpg-9c432fed9faeeb4ee6b03f8a57e5466d.s3tc.ctex::
+Room_Wood076_1K-JPG_Color.jpg::CompressedTexture2D::3993102587177044628::1771724025::1771724190::1::::<><><>0<>0<>bf1eab1f483fb2acdd4ca83a40822345<>res://.godot/imported/Room_Wood076_1K-JPG_Color.jpg-a89d327e5f64a0857556e4746f5e2363.s3tc.ctex::
+::res://Game/::1773211467
+::res://Game/Levels/::1771928328
+Main.tscn::PackedScene::4968961561856575060::1771928328::0::1::::<><><>0<>0<><>::uid://bw5j20smox6wu::::res://Asset/Room Model/Room_Wood076_1K-JPG_Color.jpg<>uid://nw1d3scm2x81::::res://Asset/Room Model/Room_Planks037B_1K-JPG_Color.jpg<>uid://b4i0ysodblvej::::res://Asset/Room Model/Room_PaintedPlaster017_1K-JPG_Color.jpg<>uid://cf1pwgl0y0mi6::::res://Game/Player/Player.tscn<>uid://ctff3t2iaopky::::res://Game/WorldItem/WorldItemGoo.tscn
+::res://Game/Player/::1771919333
+InteractableController.cs::CSharpScript::3568908454292416870::1771723769::0::1::::<>RayCast3D<><>0<>0<><>::
+InteractableObject.cs::CSharpScript::5024529884606232519::1771928447::0::1::::<>Node<><>0<>0<><>::
+Inventory.cs::CSharpScript::3361227041795379842::1771919004::0::1::::<>Node<><>0<>0<><>::
+Inventory.tscn::PackedScene::5404668471165243426::1771919075::0::1::::<><><>0<>0<><>::uid://bn5g6hs0jor2i::::res://Game/Player/Inventory.cs<>uid://bkor1xtgxkda0::::res://Game/Resource/ItemData/Goo.tres<>uid://cad58mayajift::::res://Game/Player/InventorySlot.tscn<>uid://mk0ekpsc0cim::::res://Game/Resource/ItemData/Iron.tres<>uid://usbwrbc326ix::::res://Game/Resource/ItemData/Wood.tres
+InventorySlot.cs::CSharpScript::7889955610077589528::1771919477::0::1::::<>Button<><>0<>0<><>::
+InventorySlot.tscn::PackedScene::4780915573001252005::1771919333::0::1::::<><><>0<>0<><>::uid://dkn7ofc18fl8s::::res://Game/Player/InventorySlot.cs<>uid://ccjtljhtdisln::::res://Asset/Items/Icons/Wood.png
+Player.cs::CSharpScript::8156094593368350646::1771724459::0::1::::<>CharacterBody3D<><>0<>0<><>::
+Player.tscn::PackedScene::5178409782841226759::1771729335::0::1::::<><><>0<>0<><>::uid://dog4xlnu0ttww::::res://Game/Player/Player.cs<>uid://bq32nvl0ym5fe::::res://Game/Player/InteractableController.cs<>uid://cjacdnx4nlor7::::res://Game/Player/Inventory.tscn
+PlayerController.gd::GDScript::2583748246990527678::1771724403::0::1::::PlayerController<>CharacterBody3D<><>0<>0<><>::
+::res://Game/Resource/::1771728553
+Item.cs::CSharpScript::8460138400540152791::1771919435::0::1::::<>Resource<><>0<>0<><>::
+::res://Game/Resource/ItemData/::1771728711
+Goo.tres::Resource::3118290265840900965::1771728711::0::1::::<><><>0<>0<><>::uid://dkvupub4psbja::::res://Asset/Items/Icons/Goo.png<>uid://dssfijngret72::::res://Game/Resource/Item.cs
+Iron.tres::Resource::864435518418830732::1771728674::0::1::::<><><>0<>0<><>::uid://d2twxtxeqy64::::res://Asset/Items/Icons/Iron.png<>uid://dssfijngret72::::res://Game/Resource/Item.cs
+Wood.tres::Resource::1441036571363540283::1771728619::0::1::::<><><>0<>0<><>::uid://ccjtljhtdisln::::res://Asset/Items/Icons/Wood.png<>uid://dssfijngret72::::res://Game/Resource/Item.cs
+::res://Game/WorldItem/::1771928645
+WorldItem.cs::CSharpScript::6334901094769596200::1771928596::0::1::::<><><>0<>0<><>::
+WorldItemGoo.tscn::PackedScene::6117105912489709016::1771928645::0::1::::<><><>0<>0<><>::uid://bjlhco0x10xv7::::res://Asset/Items/Models/Goo.obj<>uid://cwiw5pgl26w7i::::res://Game/WorldItem/WorldItem.cs
+::res://Manager/::1773211486
+Manager.cs::CSharpScript::394389186266209034::1771723254::0::1::::<>Node<><>0<>0<><>::
+manager.tscn::PackedScene::4968726012553328738::1771723237::0::1::::<><><>0<>0<><>::
+SignalManager.cs::CSharpScript::1016704539209040109::1773211486::0::1::::<><><>0<>0<><>::

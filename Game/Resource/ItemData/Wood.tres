@@ -1,0 +1,12 @@
+[gd_resource type="Resource" format=3 uid="uid://usbwrbc326ix"]
+
+[ext_resource type="Texture2D" uid="uid://ccjtljhtdisln" path="res://Asset/Items/Icons/Wood.png" id="1_mbues"]
+[ext_resource type="PackedScene" uid="uid://l608nt6gs17p" path="res://Game/WorldItem/WorldItemWood.tscn" id="2_2lgwu"]
+[ext_resource type="Script" uid="uid://dssfijngret72" path="res://Game/Resource/Item.cs" id="2_htc1e"]
+
+[resource]
+script = ExtResource("2_htc1e")
+DisplayName = "Wood"
+Icon = ExtResource("1_mbues")
+MaxStackSize = 12
+WorldItemScene = ExtResource("2_2lgwu")

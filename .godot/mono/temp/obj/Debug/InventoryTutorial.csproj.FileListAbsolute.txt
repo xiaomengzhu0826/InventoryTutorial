@@ -1,0 +1,17 @@
+D:\Godot\GodotTutorials\InventoryTutorial\.godot\mono\temp\bin\Debug\InventoryTutorial.deps.json
+D:\Godot\GodotTutorials\InventoryTutorial\.godot\mono\temp\bin\Debug\InventoryTutorial.runtimeconfig.json
+D:\Godot\GodotTutorials\InventoryTutorial\.godot\mono\temp\bin\Debug\InventoryTutorial.dll
+D:\Godot\GodotTutorials\InventoryTutorial\.godot\mono\temp\bin\Debug\InventoryTutorial.pdb
+D:\Godot\GodotTutorials\InventoryTutorial\.godot\mono\temp\bin\Debug\GodotSharp.dll
+D:\Godot\GodotTutorials\InventoryTutorial\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+D:\Godot\GodotTutorials\InventoryTutorial\.godot\mono\temp\obj\Debug\InventoryTutorial.csproj.AssemblyReference.cache
+D:\Godot\GodotTutorials\InventoryTutorial\.godot\mono\temp\obj\Debug\InventoryTutorial.GeneratedMSBuildEditorConfig.editorconfig
+D:\Godot\GodotTutorials\InventoryTutorial\.godot\mono\temp\obj\Debug\InventoryTutorial.AssemblyInfoInputs.cache
+D:\Godot\GodotTutorials\InventoryTutorial\.godot\mono\temp\obj\Debug\InventoryTutorial.AssemblyInfo.cs
+D:\Godot\GodotTutorials\InventoryTutorial\.godot\mono\temp\obj\Debug\InventoryTutorial.csproj.CoreCompileInputs.cache
+D:\Godot\GodotTutorials\InventoryTutorial\.godot\mono\temp\obj\Debug\Inventor.406C6E12.Up2Date
+D:\Godot\GodotTutorials\InventoryTutorial\.godot\mono\temp\obj\Debug\InventoryTutorial.dll
+D:\Godot\GodotTutorials\InventoryTutorial\.godot\mono\temp\obj\Debug\refint\InventoryTutorial.dll
+D:\Godot\GodotTutorials\InventoryTutorial\.godot\mono\temp\obj\Debug\InventoryTutorial.pdb
+D:\Godot\GodotTutorials\InventoryTutorial\.godot\mono\temp\obj\Debug\InventoryTutorial.genruntimeconfig.cache
+D:\Godot\GodotTutorials\InventoryTutorial\.godot\mono\temp\obj\Debug\ref\InventoryTutorial.dll

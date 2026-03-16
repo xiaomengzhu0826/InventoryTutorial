@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "qY3fhi4CyFo=",
+  "success": true,
+  "projectFilePath": "D:\\Godot\\GodotTutorials\\InventoryTutorial\\InventoryTutorial.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\XiaoMengZhu\\.nuget\\packages\\godot.sourcegenerators\\4.6.0\\godot.sourcegenerators.4.6.0.nupkg.sha512",
+    "C:\\Users\\XiaoMengZhu\\.nuget\\packages\\godotsharp\\4.6.0\\godotsharp.4.6.0.nupkg.sha512",
+    "C:\\Users\\XiaoMengZhu\\.nuget\\packages\\godotsharpeditor\\4.6.0\\godotsharpeditor.4.6.0.nupkg.sha512",
+    "C:\\Users\\XiaoMengZhu\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.13\\microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
+    "C:\\Users\\XiaoMengZhu\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.13\\microsoft.windowsdesktop.app.ref.8.0.13.nupkg.sha512",
+    "C:\\Users\\XiaoMengZhu\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.13\\microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

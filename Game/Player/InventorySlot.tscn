@@ -1,0 +1,53 @@
+[gd_scene format=3 uid="uid://cad58mayajift"]
+
+[ext_resource type="Script" uid="uid://dkn7ofc18fl8s" path="res://Game/Player/InventorySlot.cs" id="1_pocrl"]
+[ext_resource type="Texture2D" uid="uid://ccjtljhtdisln" path="res://Asset/Items/Icons/Wood.png" id="2_xko5k"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_fd82q"]
+font_size = 32
+shadow_color = Color(0, 0, 0, 1)
+
+[node name="InventorySlot" type="Button" unique_id=599671775]
+custom_minimum_size = Vector2(96, 96)
+script = ExtResource("1_pocrl")
+
+[node name="Icon" type="TextureRect" parent="." unique_id=1835358980]
+custom_minimum_size = Vector2(80, 80)
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -40.0
+offset_top = -40.0
+offset_right = 40.0
+offset_bottom = 40.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("2_xko5k")
+expand_mode = 1
+
+[node name="QuantityText" type="Label" parent="." unique_id=145070453]
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -68.0
+offset_top = -58.0
+offset_right = -3.0
+offset_bottom = -3.0
+grow_horizontal = 0
+grow_vertical = 0
+text = "52"
+label_settings = SubResource("LabelSettings_fd82q")
+horizontal_alignment = 2
+vertical_alignment = 2
+
+[connection signal="gui_input" from="." to="." method="OnGuiInput"]
+[connection signal="mouse_entered" from="." to="." method="OnMouseEntered"]
+[connection signal="mouse_exited" from="." to="." method="OnMouseExited"]
+[connection signal="pressed" from="." to="." method="OnPressed"]

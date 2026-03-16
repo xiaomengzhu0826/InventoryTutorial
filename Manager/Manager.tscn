@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://cc15grmgx31de"]
+
+[ext_resource type="Script" uid="uid://oqq8fl8ovcs0" path="res://Manager/SignalManager.cs" id="1_i4p8m"]
+
+[node name="Manager" type="Node" unique_id=1290369903]
+
+[node name="SignalManager" type="Node" parent="." unique_id=398723499]
+script = ExtResource("1_i4p8m")
